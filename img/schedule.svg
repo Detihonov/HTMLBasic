@@ -1,0 +1,56 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="48"
+  height="48"
+  viewBox="0 0 48 48"
+  fill="none"
+>
+  <!-- Calendar outer frame -->
+  <rect
+    x="6"
+    y="8"
+    width="36"
+    height="34"
+    rx="2"
+    ry="2"
+    stroke="#333"
+    stroke-width="2"
+    fill="#FFF"
+  />
+
+  <!-- Month header -->
+  <rect
+    x="6"
+    y="8"
+    width="36"
+    height="10"
+    fill="#333"
+  />
+
+  <!-- Binding rings -->
+  <line x1="14" y1="2" x2="14" y2="12" stroke="#333" stroke-width="2" />
+  <line x1="34" y1="2" x2="34" y2="12" stroke="#333" stroke-width="2" />
+
+  <!-- Day grid: 3 columns × 3 rows -->
+  <g stroke="#666" stroke-width="1.5">
+    <!-- Vertical lines -->
+    <line x1="18" y1="20" x2="18" y2="40" />
+    <line x1="30" y1="20" x2="30" y2="40" />
+    <!-- Horizontal lines -->
+    <line x1="6"  y1="24" x2="42" y2="24" />
+    <line x1="6"  y1="32" x2="42" y2="32" />
+    <line x1="6"  y1="40" x2="42" y2="40" />
+  </g>
+
+  <!-- Optional: Day dots instead of full grid (comment out grid above to use) -->
+  <!--
+  <g fill="#666">
+    <circle cx="15" cy="29" r="2"/>
+    <circle cx="24" cy="29" r="2"/>
+    <circle cx="33" cy="29" r="2"/>
+    <circle cx="15" cy="37" r="2"/>
+    <circle cx="24" cy="37" r="2"/>
+    <circle cx="33" cy="37" r="2"/>
+  </g>
+  -->
+</svg>

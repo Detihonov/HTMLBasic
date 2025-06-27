@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="shortcut icon" href="/img/forms.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/style/form.css">
+</head>
+<body>
+    <h1>Forms Demo Page</h1>
+    <form action="" method="POST">
+        <div>
+            <label for="firstName">
+                First Name:
+                <input type="text" id="firstName" name="firstName">
+            </label>
+        </div>
+
+        <div>
+            <label for="lastNane">
+                Last Name:
+                <input type="text" id="lastNane" name="lastNane" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="password">
+                Password:  
+                <input type="password" id="password" name="password">
+            </label>
+        </div>
+
+        <div>
+            <input type="radio" name="howhot" id="warm" value="warm">
+            <label for="warm">Warm</label><br>
+            <input type="radio" name="howhot" id="cold" value="cold">
+            <label for="cold">Cold</label>
+        </div>
+        
+        <div>
+        <!-- Buttons -->
+        <input type="submit" value="Submit Form">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
